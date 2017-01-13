@@ -14,6 +14,7 @@
 <a href="servletParameters">ServletParameterServlet</a>
 <a href="shop">Shopping-Cart项目</a>
 <a href="tickets">客户支持项目</a>
+<a href="profile">UserProfile项目</a><i>——练习EL表达式</i>
 <div id="demo1">
 	<ul>
 		<li><a href="http://www.zcool.com.cn" target="_blank">站酷</a></li>
