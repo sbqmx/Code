@@ -1,4 +1,4 @@
-<html lang="zh-ch">
+<html lang="zh-cn">
 <%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <head>
 	<title>网址大全</title>
@@ -15,6 +15,7 @@
 <a href="shop">Shopping-Cart项目</a>
 <a href="tickets">客户支持项目</a>
 <a href="profile">UserProfile项目</a><i>——练习EL表达式</i>
+<a href="list">地址簿模块</a><i>练习核心标签库</i>
 <div id="demo1">
 	<ul>
 		<li><a href="http://www.zcool.com.cn" target="_blank">站酷</a></li>
