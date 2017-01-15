@@ -1,5 +1,6 @@
 package com.wrox;
 
+import java.time.OffsetDateTime;
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -14,6 +15,9 @@ public class Ticket
 
     private Map<String, Attachment> attachments = new LinkedHashMap<>();
 
+    //自定义标签章节添加语句，包含getter,setter方法
+    private OffsetDateTime dateCreated;
+    
     public String getCustomerName()
     {
         return customerName;
@@ -63,4 +67,12 @@ public class Ticket
     {
         return this.attachments.size();
     }
+
+	public OffsetDateTime getDateCreated() {
+		return dateCreated;
+	}
+
+	public void setDateCreated(OffsetDateTime dateCreated) {
+		this.dateCreated = dateCreated;
+	}
 }

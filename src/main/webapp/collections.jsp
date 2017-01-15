@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" import="java.util.ArrayList"%>
+<%@ page import="com.wrox.User" %>
 <%
 	ArrayList<User> users = new ArrayList<>();
 	users.add(new User(19384L,"Code314","John","Smith"));

@@ -1,4 +1,5 @@
 <%--@elvariable id="contacts" type="java.util.Set<com.wrox.Contact" --%>
+<%@ page import="com.wrox.*" %>
 <!DOCTYPE html>
 <html>
 <head>
