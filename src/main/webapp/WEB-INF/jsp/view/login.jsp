@@ -23,5 +23,9 @@
 		<input type="password" name="password"/><br><br>
 		<input type="submit" value="登录"/>
 	</form>
+	<div style="background-color: silver;border: medium black dotted;">
+		源代码中查看引用的login_c.jsp文件，以替换页面中的java代码为目的，该文件使用了&lt;c:if&gt;标签。
+		<c:import url="login_c.jsp" />
+	</div>
 </body>
 </html>
